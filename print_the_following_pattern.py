@@ -1,8 +1,5 @@
 n=int(input())
-for i in range(1,n+1):
-    for j in range(1,n+1):
-        if(i==j or j==n or j==1):
-            print('*',end=' ')
-        else:
-            print(' ',end=' ')
+for i in range(n):
+    for j in range(n):
+        print(chr(65+i),end=' ')
     print()
