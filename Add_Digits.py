@@ -9,4 +9,3 @@ def digsum(n):
     return sum
 n=int(input())
 print(digsum(n))
-    
